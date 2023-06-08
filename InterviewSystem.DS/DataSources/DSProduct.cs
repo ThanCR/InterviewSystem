@@ -162,7 +162,7 @@ namespace InterviewSystem.DS.DataSources
 
         }
 
-        public static List<ProductDescriptionType> GetAllProductDescriptionType()
+        public static List<ProductDescriptionType> GetAllProductDescriptionTypes()
         {
             InitProductDescriptionTypeList();
             return ListProductDescriptionTypes;
@@ -202,7 +202,7 @@ namespace InterviewSystem.DS.DataSources
 
         }
 
-        public static List<ProductDescription> GetAllProductDescription()
+        public static List<ProductDescription> GetAllProductDescriptions()
         {
             InitProductDescriptionList();
             return ListProductDescriptions;

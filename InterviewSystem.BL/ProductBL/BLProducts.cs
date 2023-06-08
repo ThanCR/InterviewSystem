@@ -18,29 +18,29 @@ namespace InterviewSystem.BL.ProductBL
         {
             return new APIResponse<ProductType>(
                 200,
-                "Result found!",
+                "ProductType found!",
                 DSProduct.GetProductTypeById(idProductType));
         }
         public APIResponse<bool> DeleteProductType(int idProductType)
         {
             return new APIResponse<bool>(
                 200,
-                "Product removed!",
+                "ProductType removed!",
                 DSProduct.DeleteProductType(idProductType));
         }
-        public APIResponse<bool> RegisterProduct(Product product)
+        public APIResponse<bool> RegisterProductType(ProductType productType)
         {
             return new APIResponse<bool>(
                 200,
-                "Product registered!",
-                DSProduct.RegisterProduct(product));
+                "ProductType registered!",
+                DSProduct.RegisterProductType(productType));
         }
-        public APIResponse<bool> UpdateProduct(Product product)
+        public APIResponse<bool> UpdateProductType(ProductType productType)
         {
             return new APIResponse<bool>(
                 200,
-                "Product updated!",
-                DSProduct.UpdateProduct(product));
+                "ProductType updated!",
+                DSProduct.RegisterProductType(productType));
         }
         #endregion [ProductType]
         #region [Product]
@@ -80,6 +80,80 @@ namespace InterviewSystem.BL.ProductBL
                 DSProduct.UpdateProduct(product));
         }
         #endregion [Product]
+        #region [ProductDescriptionType]
+        public APIResponse<List<ProductDescriptionType>> GetProductDescriptionTypes()
+        {
+            return new APIResponse<List<ProductDescriptionType>>(
+                200,
+                "Results found!",
+                DSProduct.GetAllProductDescriptionTypes());
+        }
+        public APIResponse<ProductDescriptionType> GetProductDescriptionTypeById(int idProductDescriptionType)
+        {
+            return new APIResponse<ProductDescriptionType>(
+                200,
+                "Result found!",
+                DSProduct.GetProductDescriptionTypeById(idProductDescriptionType));
+        }
+        public APIResponse<bool> DeleteProductDescriptionType(int idProductDescriptionType)
+        {
+            return new APIResponse<bool>(
+                200,
+                "ProductDescriptionType removed!",
+                DSProduct.DeleteProductDescriptionType(idProductDescriptionType));
+        }
+        public APIResponse<bool> RegisterProductDescriptionType(ProductDescriptionType productDescriptionType)
+        {
+            return new APIResponse<bool>(
+                200,
+                "ProductDescriptionType registered!",
+                DSProduct.RegisterProductDescriptionType(productDescriptionType));
+        }
+        public APIResponse<bool> UpdateProductDescriptionType(ProductDescriptionType productDescriptionType)
+        {
+            return new APIResponse<bool>(
+                200,
+                "ProductDescriptionType updated!",
+                DSProduct.UpdateProductDescriptionType(productDescriptionType));
+        }
+        #endregion [ProductDescriptionType]
+        #region [ProductDescription]
+        public APIResponse<List<ProductDescription>> GetProductDescriptions()
+        {
+            return new APIResponse<List<ProductDescription>>(
+                200,
+                "Results found!",
+                DSProduct.GetAllProductDescriptions());
+        }
+        public APIResponse<ProductDescription> GetProductDescriptionById(int idProductDescription)
+        {
+            return new APIResponse<ProductDescription>(
+                200,
+                "Result found!",
+                DSProduct.GetProductDescriptionById(idProductDescription));
+        }
+        public APIResponse<bool> DeleteProductDescription(int idProductDescription)
+        {
+            return new APIResponse<bool>(
+                200,
+                "ProductDescription removed!",
+                DSProduct.DeleteProductDescription(idProductDescription));
+        }
+        public APIResponse<bool> RegisterProductDescription(ProductDescription productDescription)
+        {
+            return new APIResponse<bool>(
+                200,
+                "ProductDescription registered!",
+                DSProduct.RegisterProductDescription(productDescription));
+        }
+        public APIResponse<bool> UpdateProductDescription(ProductDescription productDescription)
+        {
+            return new APIResponse<bool>(
+                200,
+                "ProductDescription updated!",
+                DSProduct.RegisterProductDescription(productDescription));
+        }
+        #endregion [ProductDescription]
         #endregion [Logicprocesses and validations]
     }
 }
