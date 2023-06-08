@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace InterviewSystem.ET.Models
 {
     //Product class that inherits from ProductType
-    public class Product : Product
+    public class Product : ProductType
     {
         //Class attributes additional to inherited from ProductType
         public int IdProduct { get; set; } 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.DS\\InterviewSystem.DS.csproj": {}
+    "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.DS\\InterviewSystem.DS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.DS\\InterviewSystem.DS.csproj": {
+    "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.DS\\InterviewSystem.DS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.DS\\InterviewSystem.DS.csproj",
+        "projectUniqueName": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.DS\\InterviewSystem.DS.csproj",
         "projectName": "InterviewSystem.DS",
-        "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.DS\\InterviewSystem.DS.csproj",
+        "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.DS\\InterviewSystem.DS.csproj",
         "packagesPath": "C:\\Users\\Jonnathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.DS\\obj\\",
+        "outputPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.DS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jonnathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.ET\\InterviewSystem.ET.csproj": {
-                "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.ET\\InterviewSystem.ET.csproj"
+              "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.ET\\InterviewSystem.ET.csproj": {
+                "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.ET\\InterviewSystem.ET.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.ET\\InterviewSystem.ET.csproj": {
+    "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.ET\\InterviewSystem.ET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.ET\\InterviewSystem.ET.csproj",
+        "projectUniqueName": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.ET\\InterviewSystem.ET.csproj",
         "projectName": "InterviewSystem.ET",
-        "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.ET\\InterviewSystem.ET.csproj",
+        "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.ET\\InterviewSystem.ET.csproj",
         "packagesPath": "C:\\Users\\Jonnathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.ET\\obj\\",
+        "outputPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.ET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jonnathan\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.API\\InterviewSystem.API.csproj",
+      "projectUniqueName": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.API\\InterviewSystem.API.csproj",
       "projectName": "InterviewSystem.API",
-      "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.API\\InterviewSystem.API.csproj",
+      "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.API\\InterviewSystem.API.csproj",
       "packagesPath": "C:\\Users\\Jonnathan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.API\\obj\\",
+      "outputPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jonnathan\\AppData\\Roaming\\NuGet\\NuGet.Config",

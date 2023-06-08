@@ -122,7 +122,7 @@ namespace InterviewSystem.DS.DataSources
 
         }
 
-        public static List<Product> GetAllProduct()
+        public static List<Product> GetAllProducts()
         {
             InitProductList();
             return ListProducts;

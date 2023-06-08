@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.ET\\InterviewSystem.ET.csproj",
+      "projectUniqueName": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.ET\\InterviewSystem.ET.csproj",
       "projectName": "InterviewSystem.ET",
-      "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.ET\\InterviewSystem.ET.csproj",
+      "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.ET\\InterviewSystem.ET.csproj",
       "packagesPath": "C:\\Users\\Jonnathan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.ET\\obj\\",
+      "outputPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.ET\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jonnathan\\AppData\\Roaming\\NuGet\\NuGet.Config",

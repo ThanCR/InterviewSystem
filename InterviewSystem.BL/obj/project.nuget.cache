@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Iv2k1Aftr89KegTFFF6xU0+Z5W8XrU3XAl4CVUomV0zstzSXBzDVrxa9nVuqv9HHxn2fmYENQnccNwYQGuNA1w==",
+  "dgSpecHash": "JTrGpjtot+Pre6jhB1rk9bDVPbsnLlmhSOho0uoxk8nv0ME6c7j0VvjEyECP45+1Zl+NCfaUFpPZ0mghR2joFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.BL\\InterviewSystem.BL.csproj",
+  "projectFilePath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.BL\\InterviewSystem.BL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "InterviewSystem.DS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InterviewSystem.ET": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InterviewSystem.DS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InterviewSystem.DS.dll": {}
+        }
+      },
+      "InterviewSystem.ET/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/InterviewSystem.ET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InterviewSystem.ET.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "InterviewSystem.DS/1.0.0": {
+      "type": "project",
+      "path": "../InterviewSystem.DS/InterviewSystem.DS.csproj",
+      "msbuildProject": "../InterviewSystem.DS/InterviewSystem.DS.csproj"
+    },
+    "InterviewSystem.ET/1.0.0": {
+      "type": "project",
+      "path": "../InterviewSystem.ET/InterviewSystem.ET.csproj",
+      "msbuildProject": "../InterviewSystem.ET/InterviewSystem.ET.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "InterviewSystem.DS >= 1.0.0",
+      "InterviewSystem.ET >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Jonnathan\\.nuget\\packages\\": {}
@@ -13,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.BL\\InterviewSystem.BL.csproj",
+      "projectUniqueName": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.BL\\InterviewSystem.BL.csproj",
       "projectName": "InterviewSystem.BL",
-      "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.BL\\InterviewSystem.BL.csproj",
+      "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.BL\\InterviewSystem.BL.csproj",
       "packagesPath": "C:\\Users\\Jonnathan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.BL\\obj\\",
+      "outputPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.BL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jonnathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +71,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.DS\\InterviewSystem.DS.csproj": {
+              "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.DS\\InterviewSystem.DS.csproj"
+            },
+            "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.ET\\InterviewSystem.ET.csproj": {
+              "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.ET\\InterviewSystem.ET.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

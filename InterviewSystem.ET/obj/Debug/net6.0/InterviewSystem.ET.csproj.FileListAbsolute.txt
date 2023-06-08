@@ -1,0 +1,12 @@
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.ET\obj\Debug\net6.0\InterviewSystem.ET.csproj.AssemblyReference.cache
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.ET\obj\Debug\net6.0\InterviewSystem.ET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.ET\obj\Debug\net6.0\InterviewSystem.ET.AssemblyInfoInputs.cache
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.ET\obj\Debug\net6.0\InterviewSystem.ET.AssemblyInfo.cs
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.ET\obj\Debug\net6.0\InterviewSystem.ET.csproj.CoreCompileInputs.cache
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.ET\bin\Debug\net6.0\InterviewSystem.ET.deps.json
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.ET\bin\Debug\net6.0\InterviewSystem.ET.dll
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.ET\bin\Debug\net6.0\InterviewSystem.ET.pdb
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.ET\obj\Debug\net6.0\InterviewSystem.ET.dll
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.ET\obj\Debug\net6.0\refint\InterviewSystem.ET.dll
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.ET\obj\Debug\net6.0\InterviewSystem.ET.pdb
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.ET\obj\Debug\net6.0\ref\InterviewSystem.ET.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q3UKgMJDQzSuT5jHZfEYGPtmepWt76ftLR251NsiP3gJ+aL58NPwH61V19KRo9Hj4KuMo4YMEf5PSgQbGMo5Cg==",
+  "dgSpecHash": "uPb0qgT1qedHOLXeax3DDCUAZPx0mNQfEr0AWsdlELTad526bLW2fILIrBYI4fAtTcAR4VB8VBwubtNWrx6RyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.API\\InterviewSystem.API.csproj",
+  "projectFilePath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.API\\InterviewSystem.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jonnathan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Jonnathan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

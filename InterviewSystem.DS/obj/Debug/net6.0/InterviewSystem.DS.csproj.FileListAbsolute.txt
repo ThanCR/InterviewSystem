@@ -1,0 +1,15 @@
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\obj\Debug\net6.0\InterviewSystem.DS.csproj.AssemblyReference.cache
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\obj\Debug\net6.0\InterviewSystem.DS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\obj\Debug\net6.0\InterviewSystem.DS.AssemblyInfoInputs.cache
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\obj\Debug\net6.0\InterviewSystem.DS.AssemblyInfo.cs
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\obj\Debug\net6.0\InterviewSystem.DS.csproj.CoreCompileInputs.cache
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\bin\Debug\net6.0\InterviewSystem.DS.deps.json
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\bin\Debug\net6.0\InterviewSystem.DS.dll
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\bin\Debug\net6.0\InterviewSystem.DS.pdb
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\bin\Debug\net6.0\InterviewSystem.ET.dll
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\bin\Debug\net6.0\InterviewSystem.ET.pdb
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\obj\Debug\net6.0\InterviewSystem.DS.csproj.CopyComplete
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\obj\Debug\net6.0\InterviewSystem.DS.dll
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\obj\Debug\net6.0\refint\InterviewSystem.DS.dll
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\obj\Debug\net6.0\InterviewSystem.DS.pdb
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\InterviewSystem.Web\InterviewSystem.DS\obj\Debug\net6.0\ref\InterviewSystem.DS.dll

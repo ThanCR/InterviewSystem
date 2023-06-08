@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.Web\\InterviewSystem.Web.csproj": {}
+    "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.Web\\InterviewSystem.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.Web\\InterviewSystem.Web.csproj": {
+    "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.Web\\InterviewSystem.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.Web\\InterviewSystem.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.Web\\InterviewSystem.Web.csproj",
         "projectName": "InterviewSystem.Web",
-        "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.Web\\InterviewSystem.Web.csproj",
+        "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.Web\\InterviewSystem.Web.csproj",
         "packagesPath": "C:\\Users\\Jonnathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\InterviewSystem.Web\\InterviewSystem.Web\\obj\\",
+        "outputPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jonnathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
