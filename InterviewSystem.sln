@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewSystem.DS", "Inter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewSystem.BL", "InterviewSystem.BL\InterviewSystem.BL.csproj", "{8CB5E03B-6545-4EEF-B284-6BDE4A5DEE7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewSystem.API", "InterviewSystem.API\InterviewSystem.API.csproj", "{BC4F974A-6DB8-44C9-A852-6CEFA9ABEC51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewSystem.API", "InterviewSystem.API\InterviewSystem.API.csproj", "{BC4F974A-6DB8-44C9-A852-6CEFA9ABEC51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{72A7BF6B-89CC-4D43-A25D-63D35A276A33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{BC4F974A-6DB8-44C9-A852-6CEFA9ABEC51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC4F974A-6DB8-44C9-A852-6CEFA9ABEC51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC4F974A-6DB8-44C9-A852-6CEFA9ABEC51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A7BF6B-89CC-4D43-A25D-63D35A276A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A7BF6B-89CC-4D43-A25D-63D35A276A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A7BF6B-89CC-4D43-A25D-63D35A276A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A7BF6B-89CC-4D43-A25D-63D35A276A33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
