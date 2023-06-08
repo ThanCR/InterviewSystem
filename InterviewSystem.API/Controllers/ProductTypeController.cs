@@ -9,23 +9,35 @@ namespace InterviewSystem.API.Controllers
     [Route("[controller]")]
     public class ProductTypeController : ControllerBase
     {
-        [HttpGet(Name = "GetAllProductTypes")]
+        [HttpGet]
         [ProducesResponseType(200)]
         public IActionResult GetAllProductTypes()
         {
             return Ok(new BLProducts().GetProductTypes());
         }
-        //[HttpGet]
-        //[ProducesResponseType(200)]
-        //public IActionResult GetProductType(int idProductType) => Ok(new BLProducts().GetProductTypeById(idProductType));
+        [HttpGet("/ProductType/{idProductType}")]
+        [ProducesResponseType(200)]
+        public IActionResult GetProductType(int idProductType)
+        {
+            return Ok(new BLProducts().GetProductTypeById(idProductType));
+        }
 
-        //[HttpPost]
-        //public IActionResult RegisterProductType([FromBody] ProductType productType) => Ok( new BLProducts().RegisterProductType(productType));
-        //[HttpPut]
-        //[ProducesResponseType(200)]
-        //public IActionResult UpdateProductType([FromBody]  ProductType productType) => Ok(new BLProducts().UpdateProductType(productType));
-        //[HttpDelete]
-        //[ProducesResponseType(200)]
-        //public IActionResult DeleteProductType(int idProductType) => Ok( new BLProducts().DeleteProductType(idProductType));
+        [HttpPost]
+        public IActionResult RegisterProductType([FromBody] ProductType productType)
+        {
+            return Ok(new BLProducts().RegisterProductType(productType));
+        }
+        [HttpPut]
+        [ProducesResponseType(201)]
+        public IActionResult UpdateProductType([FromBody] ProductType productType)
+        {
+            return Ok(new BLProducts().UpdateProductType(productType));
+        }
+        [HttpDelete]
+        [ProducesResponseType(200)]
+        public IActionResult DeleteProductType(int idProductType)
+        {
+            return Ok(new BLProducts().DeleteProductType(idProductType));
+        }
     }
 }

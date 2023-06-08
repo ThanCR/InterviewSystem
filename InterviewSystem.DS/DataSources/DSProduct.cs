@@ -22,6 +22,9 @@ namespace InterviewSystem.DS.DataSources
         private static void InitProductTypeList()
         {
             ListProductTypes = ListProductTypes ?? new List<ProductType>();
+            ListProductTypes.Add(new ProductType(1, "Beer"));
+            ListProductTypes.Add(new ProductType(2, "Juice"));
+            ListProductTypes.Add(new ProductType(3, "Soda"));
         }
 
         /// <summary>

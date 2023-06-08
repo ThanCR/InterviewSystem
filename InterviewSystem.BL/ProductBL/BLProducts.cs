@@ -40,7 +40,7 @@ namespace InterviewSystem.BL.ProductBL
             return new APIResponse<bool>(
                 200,
                 "ProductType updated!",
-                DSProduct.RegisterProductType(productType));
+                DSProduct.UpdateProductType(productType));
         }
         #endregion [ProductType]
         #region [Product]

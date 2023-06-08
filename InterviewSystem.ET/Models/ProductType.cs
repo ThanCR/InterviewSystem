@@ -12,5 +12,15 @@ namespace InterviewSystem.ET.Models
         //Attributes
         public int IdProductType { get; set; }
         public string? ProductTypeName { get; set; }
+
+        #region [constructors]
+
+        public ProductType() { }
+        public ProductType(int idProductType, string? productTypeName)
+        {
+            IdProductType = idProductType;
+            ProductTypeName = productTypeName;
+        }
+        #endregion [constructors
     }
 }
