@@ -31,8 +31,10 @@ namespace InterviewSystem.Client.ProductClient
                         result.ForEach(x =>
                         {
                             Console.WriteLine($"------ProductDescription information------\n" +
-                                            $"ID: {x.IdProductDescription}\n" +
+                                            $"IdDescription: {x.IdProductDescription}\n" +
+                                            $"IdDescriptionType: {x.IdProductDescriptionType}\n" +
                                             $"Product: {x.ProductName}\n" +
+                                            $"Aspect: {x.ProductDescriptionTypeName}\n" +
                                             $"Description: {x.ProductDescriptionName}\n");
                         });
 
