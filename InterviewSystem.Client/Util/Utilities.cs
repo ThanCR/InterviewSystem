@@ -9,6 +9,8 @@ namespace InterviewSystem.Client.Util
 {
     public class Utilities
     {
+        public static string URLAPI = "https://localhost:7128/";
+
         public static string RemoveRepeatedWords(string text)
         {
             const string pattern = @"\b(\w+)\s+(\1)\b";
@@ -18,5 +20,6 @@ namespace InterviewSystem.Client.Util
 
             return result;
         }
+
     }
 }
