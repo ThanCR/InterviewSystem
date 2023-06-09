@@ -2,6 +2,7 @@
 
 
 using InterviewSystem.Client.ProductClient;
+using InterviewSystem.Client.Util;
 using InterviewSystem.ET.Models;
 
 bool iterate = true;
@@ -20,7 +21,8 @@ bool iterate = true;
     switch (option)
     {
         case "1":
-
+            Utilities.GetProductsSummary();
+            Console.ReadLine();
             break;
         case "2":
             Console.WriteLine("\nPlease insert the number related to the data you want to consume" +
