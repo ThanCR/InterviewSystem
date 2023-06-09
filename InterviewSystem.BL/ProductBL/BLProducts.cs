@@ -120,10 +120,17 @@ namespace InterviewSystem.BL.ProductBL
         #region [ProductDescription]
         public APIResponse<List<ProductDescription>> GetProductDescriptions()
         {
+            List<ProductDescription> products = new List<ProductDescription>(DSProduct.GetAllProductDescriptions());
+            products.ForEach(p =>
+            {
+                p.ProductName = DSProduct.GetProductById(p.IdProduct).ProductName;
+                p.ProductDescriptionTypeName = DSProduct.GetProductDescriptionTypeById(p.IdProductDescriptionType).ProductDescriptionTypeName;
+            });
+
             return new APIResponse<List<ProductDescription>>(
                 200,
                 "Results found!",
-                DSProduct.GetAllProductDescriptions());
+                products);
         }
         public APIResponse<ProductDescription> GetProductDescriptionById(int idProductDescription)
         {

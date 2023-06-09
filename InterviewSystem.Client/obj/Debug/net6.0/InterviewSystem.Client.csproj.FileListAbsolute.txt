@@ -1,0 +1,15 @@
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\bin\Debug\net6.0\InterviewSystem.Client.exe
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\bin\Debug\net6.0\InterviewSystem.Client.deps.json
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\bin\Debug\net6.0\InterviewSystem.Client.runtimeconfig.json
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\bin\Debug\net6.0\InterviewSystem.Client.dll
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\bin\Debug\net6.0\InterviewSystem.Client.pdb
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\obj\Debug\net6.0\InterviewSystem.Client.csproj.AssemblyReference.cache
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\obj\Debug\net6.0\InterviewSystem.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\obj\Debug\net6.0\InterviewSystem.Client.AssemblyInfoInputs.cache
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\obj\Debug\net6.0\InterviewSystem.Client.AssemblyInfo.cs
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\obj\Debug\net6.0\InterviewSystem.Client.csproj.CoreCompileInputs.cache
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\obj\Debug\net6.0\InterviewSystem.Client.dll
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\obj\Debug\net6.0\refint\InterviewSystem.Client.dll
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\obj\Debug\net6.0\InterviewSystem.Client.pdb
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\obj\Debug\net6.0\InterviewSystem.Client.genruntimeconfig.cache
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\obj\Debug\net6.0\ref\InterviewSystem.Client.dll

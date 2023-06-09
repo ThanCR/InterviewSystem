@@ -16,16 +16,22 @@ namespace InterviewSystem.DS.DataSources
 
         #region [Init]
 
+        private static void InitiateAllLists()
+        {
+            InitProductTypeList();
+            InitProductList();
+            InitProductDescriptionTypeList();
+            InitProductDescriptionList();
+        }
+
         /// <summary>
         /// Avoids null exceptions due to null List or object.
         /// </summary>
         private static void InitProductTypeList()
         {
             List<ProductType> InitialItemList = new List<ProductType>();
-            InitialItemList.Add(new ProductType(1, "Beer"));
-            InitialItemList.Add(new ProductType(2, "Juice"));
-            InitialItemList.Add(new ProductType(3, "Soda"));
-
+            //It is able to admit more types of products, not only drinks
+            InitialItemList.Add(new ProductType(1, "Drinks"));
             ListProductTypes = ListProductTypes ?? InitialItemList;
             
         }
@@ -36,9 +42,9 @@ namespace InterviewSystem.DS.DataSources
         private static void InitProductList()
         {
             List<Product> InitialItemList = new List<Product>();
-            InitialItemList.Add(new Product(1,"Corona", 1));
-            InitialItemList.Add(new Product(2, "Orange Juice", 2));
-            InitialItemList.Add(new Product(3, "Pepsi",3));
+            InitialItemList.Add(new Product(1,1,"BudWeiser"));
+            InitialItemList.Add(new Product(2,1, "Orange Juice"));
+            InitialItemList.Add(new Product(3,1, "Pepsi"));
             ListProducts = ListProducts ?? InitialItemList;
         }
 
@@ -47,7 +53,11 @@ namespace InterviewSystem.DS.DataSources
         /// </summary>
         private static void InitProductDescriptionTypeList()
         {
-            ListProductDescriptionTypes = ListProductDescriptionTypes ?? new List<ProductDescriptionType>();
+            List<ProductDescriptionType> InitialItemList = new List<ProductDescriptionType>();
+            InitialItemList.Add(new ProductDescriptionType(1, "Carbonation"));
+            InitialItemList.Add(new ProductDescriptionType(2, "Alcohol content"));
+            InitialItemList.Add(new ProductDescriptionType(3, "Fruit used"));
+            ListProductDescriptionTypes = ListProductDescriptionTypes ?? InitialItemList;
         }
 
         /// <summary>
@@ -55,7 +65,13 @@ namespace InterviewSystem.DS.DataSources
         /// </summary>
         private static void InitProductDescriptionList()
         {
-            ListProductDescriptions = ListProductDescriptions ?? new List<ProductDescription>();
+            List<ProductDescription> InitialItemList = new List<ProductDescription>();
+            InitialItemList.Add(new ProductDescription(1,1,1, "Carbonated"));
+            InitialItemList.Add(new ProductDescription(1, 1, 2, "5%"));
+            InitialItemList.Add(new ProductDescription(2,2,3, "Made from oranges"));
+            InitialItemList.Add(new ProductDescription(2, 2, 1, "Not Carbonated"));
+            InitialItemList.Add(new ProductDescription(3,3,1, "Carbonated"));
+            ListProductDescriptions = ListProductDescriptions ?? InitialItemList;
         }
         #endregion [End-Init]
 
@@ -64,14 +80,14 @@ namespace InterviewSystem.DS.DataSources
         #region [ProductType Process]
         public static bool RegisterProductType(ProductType productType)
         {
-            InitProductTypeList();
+            InitiateAllLists();
             ListProductTypes.Add(productType);//Adds productType to existent list
             return true;
         }
 
         public static bool UpdateProductType(ProductType productType)
         {
-            InitProductTypeList();
+            InitiateAllLists();
             ListProductTypes.Where(w => w.IdProductType == productType.IdProductType)
                             .ToList().ForEach(i =>
                             {
@@ -83,14 +99,14 @@ namespace InterviewSystem.DS.DataSources
 
         public static bool DeleteProductType(int idProductType)
         {
-            InitProductTypeList() ;
+            InitiateAllLists();
             ListProductTypes = ListProductTypes.Where(p => p.IdProductType != idProductType).ToList();
             return true;
         }
 
         public static ProductType GetProductTypeById(int idProductType)
         {
-            InitProductTypeList();
+            InitiateAllLists();
             return ListProductTypes
                     .FirstOrDefault(p => p.IdProductType == idProductType) ?? new ProductType();
              
@@ -98,7 +114,7 @@ namespace InterviewSystem.DS.DataSources
 
         public static List<ProductType> GetAllProductTypes()
         {
-            InitProductTypeList();
+            InitiateAllLists();
             return ListProductTypes;
 
         }
@@ -108,14 +124,14 @@ namespace InterviewSystem.DS.DataSources
         #region [Product Process]
         public static bool RegisterProduct(Product product)
         {
-            InitProductList();
+            InitiateAllLists();
             ListProducts.Add(product);
             return true;
         }
 
         public static bool UpdateProduct(Product product)
         {
-            InitProductList();
+            InitiateAllLists();
             ListProducts.Where(w => w.IdProduct == product.IdProduct)
                             .ToList().ForEach(i =>
                             {
@@ -127,14 +143,14 @@ namespace InterviewSystem.DS.DataSources
 
         public static bool DeleteProduct(int idProduct)
         {
-            InitProductList();
+            InitiateAllLists();
             ListProducts = ListProducts.Where(p => p.IdProduct != idProduct).ToList();
             return true;
         }
 
         public static Product GetProductById(int idProduct)
         {
-            InitProductTypeList();
+            InitiateAllLists();
             return ListProducts
                     .FirstOrDefault(p => p.IdProduct == idProduct) ?? new Product();
 
@@ -142,7 +158,7 @@ namespace InterviewSystem.DS.DataSources
 
         public static List<Product> GetAllProducts()
         {
-            InitProductList();
+            InitiateAllLists();
             return ListProducts;
 
         }
@@ -151,22 +167,26 @@ namespace InterviewSystem.DS.DataSources
         #region [ProductDescriptionType]
         public static bool RegisterProductDescriptionType(ProductDescriptionType productDescriptionType)
         {
-            InitProductDescriptionTypeList();
+            InitiateAllLists();
             ListProductDescriptionTypes.Add(productDescriptionType);
             return true;
         }
 
         public static bool UpdateProductDescriptionType(ProductDescriptionType productDescriptionType)
         {
-            InitProductDescriptionList();
+            InitiateAllLists();
             ListProductDescriptionTypes.Where(w => w.IdProductDescriptionType == productDescriptionType.IdProductDescriptionType)
-                            .ToList().ForEach(i => i = productDescriptionType);
+                            .ToList().ForEach(i =>
+                            {
+                                i.IdProductDescriptionType = productDescriptionType.IdProductDescriptionType;
+                                i.ProductDescriptionTypeName = productDescriptionType.ProductDescriptionTypeName;
+                            });
             return true;
         }
 
         public static bool DeleteProductDescriptionType(int idProductDescriptionType)
         {
-            InitProductDescriptionTypeList();
+            InitiateAllLists();
             ListProductDescriptionTypes = ListProductDescriptionTypes
                 .Where(p => p.IdProductDescriptionType != idProductDescriptionType).ToList();
             return true;
@@ -174,7 +194,7 @@ namespace InterviewSystem.DS.DataSources
 
         public static ProductDescriptionType GetProductDescriptionTypeById(int idProductDescriptionType)
         {
-            InitProductDescriptionTypeList();
+            InitiateAllLists();
             return ListProductDescriptionTypes
                     .FirstOrDefault(p => p.IdProductDescriptionType == idProductDescriptionType) ?? new ProductDescriptionType();
 
@@ -182,7 +202,7 @@ namespace InterviewSystem.DS.DataSources
 
         public static List<ProductDescriptionType> GetAllProductDescriptionTypes()
         {
-            InitProductDescriptionTypeList();
+            InitiateAllLists();
             return ListProductDescriptionTypes;
 
         }
@@ -191,22 +211,26 @@ namespace InterviewSystem.DS.DataSources
         #region [ProductDescription]
         public static bool RegisterProductDescription(ProductDescription productDescription)
         {
-            InitProductDescriptionList();
+            InitiateAllLists();
             ListProductDescriptions.Add(productDescription);
             return true;
         }
 
         public static bool UpdateProductDescription(ProductDescription productDescription)
         {
-            InitProductDescriptionList();
+            InitiateAllLists();
             ListProductDescriptions.Where(w => w.IdProductDescription == productDescription.IdProductDescription)
-                            .ToList().ForEach(i => i = productDescription);
+                            .ToList().ForEach(i =>
+                            {
+                                i.IdProductDescription = productDescription.IdProductDescription;
+                                i.ProductDescriptionName = productDescription.ProductDescriptionName;
+                            });
             return true;
         }
 
         public static bool DeleteProductDescription(int idProductDescription)
         {
-            InitProductDescriptionList();
+            InitiateAllLists();
             ListProductDescriptions = ListProductDescriptions
                 .Where(p => p.IdProductDescription != idProductDescription).ToList();
             return true;
@@ -214,7 +238,7 @@ namespace InterviewSystem.DS.DataSources
 
         public static ProductDescription GetProductDescriptionById(int idProductDescription)
         {
-            InitProductDescriptionList();
+            InitiateAllLists();
             return ListProductDescriptions
                     .FirstOrDefault(p => p.IdProductDescription == idProductDescription) ?? new ProductDescription();
 
@@ -222,7 +246,7 @@ namespace InterviewSystem.DS.DataSources
 
         public static List<ProductDescription> GetAllProductDescriptions()
         {
-            InitProductDescriptionList();
+            InitiateAllLists();
             return ListProductDescriptions;
 
         }
