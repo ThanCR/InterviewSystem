@@ -1,6 +1,8 @@
 ﻿
+using InterviewSystem.Client.Util;
 using InterviewSystem.ET.Models;
 using System.Net.Http.Json;
+using System.Net.Security;
 using System.Text.Json;
 
 const string APIurl = "https://localhost:7128/ProductDescription";
@@ -21,10 +23,10 @@ using (HttpClient client = new HttpClient())
 
             result.ForEach(x =>
             {
-                Console.WriteLine($"" +
-                    $"Name: {x.ProductName}\n" +
+                Console.WriteLine($"------Product information------\n" +
+                    $"Product: {x.ProductName}\n" +
                     $"Aspect: {x.ProductDescriptionTypeName}\n" +
-                    $"Description: {x.ProductDescriptionName} \n");
+                    $"Description: {x.ProductDescriptionName}\n");
             });
         }
         else
