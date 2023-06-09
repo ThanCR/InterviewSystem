@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\InterviewSystem.ET\InterviewSystem.ET.csproj" />
+  </ItemGroup>
+
 </Project>

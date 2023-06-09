@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "InterviewSystem.Client/1.0.0": {
+        "dependencies": {
+          "InterviewSystem.ET": "1.0.0"
+        },
         "runtime": {
           "InterviewSystem.Client.dll": {}
+        }
+      },
+      "InterviewSystem.ET/1.0.0": {
+        "runtime": {
+          "InterviewSystem.ET.dll": {}
         }
       }
     }
   },
   "libraries": {
     "InterviewSystem.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InterviewSystem.ET/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

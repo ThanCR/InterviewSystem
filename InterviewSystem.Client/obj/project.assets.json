@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "InterviewSystem.ET/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/InterviewSystem.ET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InterviewSystem.ET.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "InterviewSystem.ET/1.0.0": {
+      "type": "project",
+      "path": "../InterviewSystem.ET/InterviewSystem.ET.csproj",
+      "msbuildProject": "../InterviewSystem.ET/InterviewSystem.ET.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "InterviewSystem.ET >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Jonnathan\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.ET\\InterviewSystem.ET.csproj": {
+              "projectPath": "C:\\Users\\Jonnathan\\Documents\\Entrevista\\InterviewProject\\Project\\InterviewSystem.ET\\InterviewSystem.ET.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

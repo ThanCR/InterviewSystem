@@ -13,3 +13,6 @@ C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem
 C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\obj\Debug\net6.0\InterviewSystem.Client.pdb
 C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\obj\Debug\net6.0\InterviewSystem.Client.genruntimeconfig.cache
 C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\obj\Debug\net6.0\ref\InterviewSystem.Client.dll
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\bin\Debug\net6.0\InterviewSystem.ET.dll
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\bin\Debug\net6.0\InterviewSystem.ET.pdb
+C:\Users\Jonnathan\Documents\Entrevista\InterviewProject\Project\InterviewSystem.Client\obj\Debug\net6.0\InterviewSystem.Client.csproj.CopyComplete
