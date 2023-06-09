@@ -21,10 +21,13 @@ namespace InterviewSystem.DS.DataSources
         /// </summary>
         private static void InitProductTypeList()
         {
-            ListProductTypes = ListProductTypes ?? new List<ProductType>();
-            ListProductTypes.Add(new ProductType(1, "Beer"));
-            ListProductTypes.Add(new ProductType(2, "Juice"));
-            ListProductTypes.Add(new ProductType(3, "Soda"));
+            List<ProductType> InitialItemList = new List<ProductType>();
+            InitialItemList.Add(new ProductType(1, "Beer"));
+            InitialItemList.Add(new ProductType(2, "Juice"));
+            InitialItemList.Add(new ProductType(3, "Soda"));
+
+            ListProductTypes = ListProductTypes ?? InitialItemList;
+            
         }
 
         /// <summary>
@@ -66,7 +69,11 @@ namespace InterviewSystem.DS.DataSources
         {
             InitProductTypeList();
             ListProductTypes.Where(w => w.IdProductType == productType.IdProductType)
-                            .ToList().ForEach(i => i = productType);
+                            .ToList().ForEach(i =>
+                            {
+                                i.IdProductType = productType.IdProductType;
+                                i.ProductTypeName = productType.ProductTypeName;
+                            });
             return true;
         }
 

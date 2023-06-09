@@ -21,6 +21,6 @@ namespace InterviewSystem.ET.Models
             IdProductType = idProductType;
             ProductTypeName = productTypeName;
         }
-        #endregion [constructors
+        #endregion [constructors]
     }
 }

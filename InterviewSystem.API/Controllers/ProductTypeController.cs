@@ -33,7 +33,7 @@ namespace InterviewSystem.API.Controllers
         {
             return Ok(new BLProducts().UpdateProductType(productType));
         }
-        [HttpDelete]
+        [HttpDelete("/ProductType/{idProductType}")]
         [ProducesResponseType(200)]
         public IActionResult DeleteProductType(int idProductType)
         {

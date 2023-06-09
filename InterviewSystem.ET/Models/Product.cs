@@ -13,5 +13,15 @@ namespace InterviewSystem.ET.Models
         public int IdProduct { get; set; } 
 
         public string ?ProductName { get; set; }
+
+        public Product() { }
+
+        public Product(int idProduct, string productName, int idProductType, string productTypeName)
+        {
+            IdProduct = idProduct;
+            ProductName = productName;
+            IdProductType = idProductType;
+            ProductTypeName = productTypeName;
+        }
     }
 }
