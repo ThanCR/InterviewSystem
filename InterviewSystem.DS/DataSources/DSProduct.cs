@@ -35,7 +35,11 @@ namespace InterviewSystem.DS.DataSources
         /// </summary>
         private static void InitProductList()
         {
-            ListProducts = ListProducts ?? new List<Product>();
+            List<Product> InitialItemList = new List<Product>();
+            InitialItemList.Add(new Product(1,"Corona", 1));
+            InitialItemList.Add(new Product(2, "Orange Juice", 2));
+            InitialItemList.Add(new Product(3, "Pepsi",3));
+            ListProducts = ListProducts ?? InitialItemList;
         }
 
         /// <summary>
@@ -113,7 +117,11 @@ namespace InterviewSystem.DS.DataSources
         {
             InitProductList();
             ListProducts.Where(w => w.IdProduct == product.IdProduct)
-                            .ToList().ForEach(i => i = product);
+                            .ToList().ForEach(i =>
+                            {
+                                i.IdProduct = product.IdProduct;
+                                i.ProductName = product.ProductName;
+                            });
             return true;
         }
 
