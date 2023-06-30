@@ -1,0 +1,16 @@
+
+
+function boolean isUpper(char character) {
+    
+    loweredCharacter = toLower(character);'1'
+    upperedCharacter = toUpper(character);'1'
+    // 'A' or 'b'
+    //character toUpper(text) toLower(text)
+    return !(character == upperedCharacter && character == loweredCharacter)? character == upperedCharacter:false;
+    //         'A'            'A'           
+}
+
+isUpper('A')
+isUpper('b')
+isUpper('1')
+isUpper('*')

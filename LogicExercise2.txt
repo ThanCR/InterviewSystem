@@ -1,0 +1,15 @@
+
+function string reverseWord(word){
+    //['H','e','l','l','o']
+    lastLetter = ""
+    if(word.length > 0){
+        lastLetter = word.Substring(word.length-1);
+        return lastLetter + reversedWord(word.Substring(0, word.length-1));
+    }
+    return word;
+}
+
+console.print(reversedWord("Hello"););
+//olleh
+console.print(reversedWord("hey"););
+//yeh
