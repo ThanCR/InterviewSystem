@@ -10,8 +10,7 @@ namespace InterviewSystem.ET.Models
     public class Product : ProductType
     {
         //Class attributes additional to inherited from ProductType
-        public int IdProduct { get; set; } 
-
+        public int IdProduct { get; set; }
         public string ?ProductName { get; set; }
 
         public Product() { }

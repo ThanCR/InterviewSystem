@@ -54,5 +54,9 @@ namespace InterviewSystem.Client.Util
             }
         }
 
+        public async static void GetProductsByTypeName(string name)
+        {
+
+        }
     }
 }
