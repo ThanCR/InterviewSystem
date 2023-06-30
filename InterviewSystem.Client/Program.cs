@@ -26,15 +26,8 @@ bool iterate = true;
             Console.ReadLine();
             break;
         case "2":
-            Console.WriteLine("\nPlease insert the number related to the data you want to consume" +
-                "\n1.Get All" +
-                "\n2.Get By Id" +
-                "\n3.Create " +
-                "\n4.Update" +
-                "\n5.Delete");
-            string option2 = Console.ReadLine();
             ProductType productType = new ProductType();
-            switch (option2)
+            switch (Utilities.AskForSelection(1))
             {
                 case "1":
                     ClientProductType.GetAllProductTypes();
@@ -72,16 +65,8 @@ bool iterate = true;
             }
             break;
         case "3":
-
-            Console.WriteLine("\nPlease insert the number related to the data you want to consume" +
-                "\n1.Get All" +
-                "\n2.Get By Id" +
-                "\n3.Create " +
-                "\n4.Update" +
-                "\n5.Delete");
-            string option3 = Console.ReadLine();
             Product product = new Product();
-            switch (option3)
+            switch (Utilities.AskForSelection(1))
             {
                 case "1":
                     ClientProduct.GetAllProducts();
@@ -120,15 +105,8 @@ bool iterate = true;
 
             break;
         case "4":
-            Console.WriteLine("\nPlease insert the number related to the data you want to consume" +
-                "\n1.Get All" +
-                "\n2.Get By Id" +
-                "\n3.Create " +
-                "\n4.Update" +
-                "\n5.Delete");
-            string option4 = Console.ReadLine();
             ProductDescriptionType productDescriptionType = new ProductDescriptionType();
-            switch (option4)
+            switch (Utilities.AskForSelection(1))
             {
                 case "1":
                     ClientProductDescriptionType.GetAllProductDescriptionTypes();
@@ -166,15 +144,8 @@ bool iterate = true;
             }
             break;
         case "5":
-            Console.WriteLine("\nPlease insert the number related to the data you want to consume" +
-                "\n1.Get All" +
-                "\n2.Get By Id" +
-                "\n3.Create " +
-                "\n4.Update" +
-                "\n5.Delete");
-            string option5 = Console.ReadLine();
             ProductDescription productDescription = new ProductDescription();
-            switch (option5)
+            switch (Utilities.AskForSelection(1))
             {
                 case "1":
                     ClientProductDescription.GetAllProductDescriptions();
@@ -212,10 +183,8 @@ bool iterate = true;
             }
             break;
         case "6":
-            Console.WriteLine("\nInsert the number of the query you want to execute and press enter" +
-                "\n1.Get products of an specific type");
-            string selection = Console.ReadLine();
-            switch(selection)
+            
+            switch(Utilities.AskForSelection(2))
             {
                 case "1":
                     Console.WriteLine("Please insert the type of the product you want to search");

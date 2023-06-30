@@ -92,5 +92,26 @@ namespace InterviewSystem.Client.Util
                 Console.WriteLine("An exception has ocurred when trying to execute API request");
             }
         }
+
+        public static string AskForSelection(int typeOfRequest) 
+        {
+            if(typeOfRequest == 1)
+            {
+
+            Console.WriteLine("\nPlease insert the number related to the data you want to consume" +
+                "\n1.Get All" +
+                "\n2.Get By Id" +
+                "\n3.Create " +
+                "\n4.Update" +
+                "\n5.Delete");
+            }
+            if(typeOfRequest == 2)
+            {
+                Console.WriteLine("\nInsert the number of the query you want to execute and press enter" +
+                "\n1.Get products of an specific type");
+            }
+            string selection = Console.ReadLine() ?? "1";
+            return selection;
+        }
     }
 }
