@@ -15,7 +15,8 @@ bool iterate = true;
     "\n3.Product" +
     "\n4.ProductDescriptionType" +
     "\n5.ProductDescription" +
-    "\n6.Exit");
+    "\n6.Custom Queries" +
+    "\n7.Exit");
     string option = Console.ReadLine() ?? "1";
 
     switch (option)
@@ -211,6 +212,23 @@ bool iterate = true;
             }
             break;
         case "6":
+            Console.WriteLine("\nInsert the number of the query you want to execute and press enter" +
+                "\n1.Get products of an specific type");
+            string selection = Console.ReadLine();
+            switch(selection)
+            {
+                case "1":
+                    Console.WriteLine("Please insert the type of the product you want to search");
+                    string type = Console.ReadLine();
+                    Utilities.GetProductsByTypeName(type);
+                    Console.ReadLine();
+                    break;
+                default:
+                    Console.WriteLine("You have inserted an invalid value!");
+                    break;
+            }
+            break;
+        case "7":
             iterate = false;
             break;
         default:

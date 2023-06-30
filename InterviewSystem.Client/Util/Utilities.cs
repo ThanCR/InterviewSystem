@@ -1,4 +1,5 @@
 ﻿using InterviewSystem.ET.Models;
+using InterviewSystem.ET.ModelsCustom;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,7 +57,40 @@ namespace InterviewSystem.Client.Util
 
         public async static void GetProductsByTypeName(string name)
         {
+            try
+            {
 
+            using (HttpClient client = new HttpClient())
+            {
+                HttpResponseMessage httpResponseMessage = await client.GetAsync($"{URLAPI}api/ProductQuery?productTypeName={name}");
+
+                if (httpResponseMessage.IsSuccessStatusCode)
+                {
+                    APIResponse<ProductByTypeGroup> jsonContent =
+                        await httpResponseMessage.Content.ReadFromJsonAsync<APIResponse<ProductByTypeGroup>>();
+
+                    ProductByTypeGroup products = jsonContent.Response;
+                        Console.WriteLine($"Here you have the results for: {products.ProductTypeData.ProductTypeName}" +
+                            $"\n-----------------------------------------------------------------------");
+                        products.ProductsDescriptionsGroup.ForEach(productDescriptionGroup => 
+                        {
+                            Console.WriteLine("-----------------------------------------------------------");
+                            Console.WriteLine("***" + productDescriptionGroup.ProductData.ProductName.ToUpper());
+                            productDescriptionGroup.ProductDescriptions.ForEach(description => Console.WriteLine("-" + description.ProductDescriptionName));
+                        });
+
+                        Console.ReadLine();
+
+                }
+                else
+                {
+                    Console.WriteLine($"An error has ocurred when consuming /api/ProductQuery endpoint");
+                }
+            }
+            }catch(Exception e)
+            {
+                Console.WriteLine("An exception has ocurred when trying to execute API request");
+            }
         }
     }
 }
